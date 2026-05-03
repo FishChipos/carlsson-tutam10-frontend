@@ -6,8 +6,6 @@ import {
 } from "react-router";
 import type { Route } from "./+types/root"
 
-import "./app.css";
-
 export function Layout({ children }: {
     children: React.ReactNode;
 }) {
@@ -19,6 +17,7 @@ export function Layout({ children }: {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
+                <link rel="stylesheet" href="./app.css" />
             </head>
             <body className="min-h-full flex flex-col">
                 {children}
