@@ -1,5 +1,5 @@
 {
-  "name": "tutam",
+  "name": "carlsson-tutam10-frontend",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,8 +9,10 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@react-router/fs-routes": "^7.14.2",
     "@react-router/node": "7.14.0",
     "@react-router/serve": "7.14.0",
+    "axios": "^1.16.0",
     "isbot": "^5.1.36",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
