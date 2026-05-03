@@ -17,7 +17,7 @@ export function Layout({ children }: {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <link rel="stylesheet" href="./app.css" />
+                <link rel="stylesheet" href="app.css" />
             </head>
             <body className="min-h-full flex flex-col">
                 {children}
